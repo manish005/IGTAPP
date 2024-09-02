@@ -75,7 +75,7 @@ def chat():
         # Redirect to the chat page to display the updated conversation
         return redirect(url_for('chat'))
 
-    return render_template('chat.html', messages=conversation)
+    return render_template('index.html', messages=conversation)
 
 if __name__ == '__main__':
     app.run(debug=True)
