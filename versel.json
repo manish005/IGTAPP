@@ -9,11 +9,8 @@
   "routes": [
     {
       "src": "/(.*)",
-<<<<<<< HEAD
       "dest": "index.py"
-=======
-      "dest": "/api/index.py"
->>>>>>> 53d9974049dfe940d42d63ed42937bcddb676f40
+
     }
   ]
 }
