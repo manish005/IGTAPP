@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from groq import Groq
 import re
 from markupsafe import Markup
-from index import beautify_response, client, model_llama318B
+from api.index  import beautify_response, client, model_llama318B
 
 app = Flask(__name__)
 
